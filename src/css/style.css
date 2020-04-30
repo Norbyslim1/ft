@@ -1,0 +1,133 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: cornflowerblue;
+    padding: 2%;
+    width: 100vw;
+    height: 100vh;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+}
+h2{
+    position: relative;
+    color: burlywood;
+    top: 10vh;
+    right: 14%;
+    font-size: 10vw;
+    font-family: Cambria, Cochin;
+    z-index: -1;
+
+}
+i{
+    color: black;
+    font-size: 13vw;
+}
+input{
+    position: relative;
+    width: 30vw;
+    height: 5vh;
+    border-radius: 8%;
+    margin: 1vh;
+    top: 1vh;
+
+}
+button{
+    width: 5%
+}
+a{
+    margin-left: 2vw;
+}
+a:hover{
+    color: dimgrey;
+}
+.login{
+    width: 60vw;
+}
+button{
+    position: relative;
+    margin: 1%;
+    left: 12%;
+    width: 6vw;
+    height: 4vh;
+}
+footer{
+    position: relative;
+    top: 40%;
+    background-color: black;
+    color: white;
+    padding: 2.5%;
+}
+@media screen and (max-width:769px){
+    body{
+        padding: 1%;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        align-items: center;
+    
+    }
+    h2{
+        position: relative;
+        color: burlywood;
+        top: 8vh;
+        right: 30vw;
+        font-size: 15vw;
+        font-family: Cambria, Cochin;
+        z-index: -1;
+    
+    }
+    i{
+        position: relative;
+        color: black;
+        font-size: 18vw;
+    }
+    input{
+        position: relative;
+        width: 65vw;
+        height: 5vh;
+        border-radius: 8%;
+        margin: 2%;
+        top: 2.5vh;
+    
+    }
+    button{
+    position: relative;
+    margin-top: 5%;
+    left: 25%;
+    width: 13vw;
+    height: 3vh;
+    border-radius: 10%;
+    }
+    .login{
+        width: 60vw;
+    }
+    a:hover{
+        color: dimgrey;
+    }
+}
+@media screen and (max-width:765px){
+    h2{
+        position: relative;
+        top:6.5vh;
+    }
+    button{
+        width: 15vw;
+        height: 4vh;
+    }
+    a:hover{
+        color: dimgrey;
+    }
+    footer{
+        position: relative;
+        top: 52%;
+    }
+}
