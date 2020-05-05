@@ -53,18 +53,21 @@ ul{
     justify-content: space-evenly;
     list-style-type: none;
 }
+#collapsable{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top: 0;
+    bottom: 0;
+    color: aqua;
+}
 li{
     padding: 0.5vw;
 }
 .listed:hover{
     border: 1.5px solid chocolate;
 }
-.collapsable{
-    position: relative;
-    display: flex;
-    justify-content: start;
-    top: 0;
-}
+
 .show1{
     position: relative;
     display: flex;
