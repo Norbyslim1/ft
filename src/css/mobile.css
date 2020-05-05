@@ -15,7 +15,9 @@ header{
     padding-bottom: 1vh;
     transition: all 1s;
 }
-
+#takeout{
+    display: none;
+}
 #collapsable{
     display: none;
 }
